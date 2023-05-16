@@ -1,4 +1,4 @@
-BX Traded|Symbol|Security Name|Listing Exchange|Market Category|ETF|Round Lot Size|Test Issue|Financial Status|CQS Symbol|BX Symbol|NextShares
+Nasdaq Traded|Symbol|Security Name|Listing Exchange|Market Category|ETF|Round Lot Size|Test Issue|Financial Status|CQS Symbol|NASDAQ Symbol|NextShares
 Y|A|Agilent Technologies, Inc. Common Stock|N| |N|100|N||A|A|N
 Y|AA|Alcoa Corporation Common Stock |N| |N|100|N||AA|AA|N
 Y|AAA|Investment Managers Series Trust II AXS First Priority CLO Bond ETF|P| |Y|100|N||AAA|AAA|N
@@ -269,7 +269,7 @@ Y|AGLE|Aeglea BioTherapeutics, Inc. - Common Stock|Q|G|N|100|N|D||AGLE|N
 Y|AGM|Federal Agricultural Mortgage Corporation Common Stock|N| |N|100|N||AGM|AGM|N
 Y|AGM$C|Federal Agricultural Mortgage Corporation Preferred Series C Fixed to Fltg|N| |N|100|N||AGMpC|AGM-C|N
 Y|AGM$D|Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D|N| |N|100|N||AGMpD|AGM-D|N
-N|AGM$E|Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E|N| |N|100|N||AGMpE|AGM-E|N
+Y|AGM$E|Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E|N| |N|100|N||AGMpE|AGM-E|N
 Y|AGM$F|Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F|N| |N|100|N||AGMpF|AGM-F|N
 Y|AGM$G|Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G|N| |N|100|N||AGMpG|AGM-G|N
 Y|AGM.A|Federal Agricultural Mortgage Corporation Common Stock|N| |N|100|N||AGM.A|AGM.A|N
@@ -1160,7 +1160,7 @@ Y|BFI|BurgerFi International Inc - Common Stock|Q|G|N|100|N|N||BFI|N
 Y|BFIIW|BurgerFi International Inc - Warrant|Q|G|N|100|N|N||BFIIW|N
 Y|BFIN|BankFinancial Corporation - Common Stock|Q|Q|N|100|N|N||BFIN|N
 Y|BFIT|Global X Health & Wellness ETF|Q|G|Y|100|N|N||BFIT|N
-N|BFIX|Build Funds Trust Build Bond Innovation ETF|P| |Y|100|N||BFIX|BFIX|N
+Y|BFIX|Build Funds Trust Build Bond Innovation ETF|P| |Y|100|N||BFIX|BFIX|N
 Y|BFK|BlackRock Municipal Income Trust|N| |N|100|N||BFK|BFK|N
 Y|BFLY|Butterfly Network, Inc. Class A Common Stock|N| |N|100|N||BFLY|BFLY|N
 Y|BFLY.W|Butterfly Network, Inc. Warrants|N| |N|100|N||BFLY.WS|BFLY+|N
@@ -1366,7 +1366,7 @@ Y|BMAC|Black Mountain Acquisition Corp. Class A Common Stock|N| |N|100|N||BMAC|B
 Y|BMAC.U|Black Mountain Acquisition Corp. Units, each consisting of one share of Class A common stock and three quarters of one warrant|N| |N|100|N||BMAC.U|BMAC=|N
 Y|BMAC.W|Black Mountain Acquisition Corp. Warrants, exercisable for one share of Class A Common Stock|N| |N|100|N||BMAC.WS|BMAC+|N
 Y|BMAR|Innovator U.S. Equity Buffer ETF - March|Z| |Y|100|N||BMAR|BMAR|N
-N|BMAY|Innovator U.S. Equity Buffer ETF - May|Z| |Y|100|N||BMAY|BMAY|N
+Y|BMAY|Innovator U.S. Equity Buffer ETF - May|Z| |Y|100|N||BMAY|BMAY|N
 Y|BMBL|Bumble Inc. - common stock|Q|Q|N|100|N|N||BMBL|N
 Y|BME|Blackrock Health Sciences Trust|N| |N|100|N||BME|BME|N
 Y|BMEA|Biomea Fusion, Inc. - Common Stock|Q|Q|N|100|N|N||BMEA|N
@@ -2482,7 +2482,7 @@ Y|CUT|Invesco MSCI Global Timber ETF|P| |Y|100|N||CUT|CUT|N
 Y|CUTR|Cutera, Inc. - Common Stock|Q|Q|N|100|N|N||CUTR|N
 Y|CUZ|Cousins Properties Incorporated Common Stock|N| |N|100|N||CUZ|CUZ|N
 Y|CVAC|CureVac N.V. - Ordinary Shares|Q|G|N|100|N|N||CVAC|N
-N|CVAR|ETF Opportunities Trust Cultivar ETF|Z| |Y|100|N||CVAR|CVAR|N
+Y|CVAR|ETF Opportunities Trust Cultivar ETF|Z| |Y|100|N||CVAR|CVAR|N
 Y|CVBF|CVB Financial Corporation - Common Stock|Q|Q|N|100|N|N||CVBF|N
 Y|CVCO|Cavco Industries, Inc. - Common Stock|Q|Q|N|100|N|N||CVCO|N
 Y|CVCY|Central Valley Community Bancorp - Common Stock|Q|S|N|100|N|N||CVCY|N
@@ -2833,7 +2833,7 @@ Y|DMAT|Global X Disruptive Materials ETF|Q|G|Y|100|N|N||DMAT|N
 Y|DMAY|FT Cboe Vest U.S. Equity Deep Buffer ETF - May|Z| |Y|100|N||DMAY|DMAY|N
 Y|DMB|BNY Mellon Municipal Bond Infrastructure Fund, Inc. Common Stock|N| |N|100|N||DMB|DMB|N
 Y|DMBS|DoubleLine ETF Trust DoubleLine Mortgage ETF|P| |Y|100|N||DMBS|DMBS|N
-N|DMCY|Democracy International Fund|P| |Y|100|N||DMCY|DMCY|N
+Y|DMCY|Democracy International Fund|P| |Y|100|N||DMCY|DMCY|N
 Y|DMDV|AAM S&P Developed Markets High Dividend Value ETF|P| |Y|100|N||DMDV|DMDV|N
 Y|DMF|BNY Mellon Municipal Income Inc. Common Stock|A| |N|100|N||DMF|DMF|N
 Y|DMLP|Dorchester Minerals, L.P. - Common Units Representing Limited Partnership Interests|Q|Q|N|100|N|N||DMLP|N
@@ -3658,7 +3658,7 @@ Y|FCRX|Crescent Capital BDC, Inc. 5.00% Notes due 2026|N| |N|100|N||FCRX|FCRX|N
 Y|FCSH|Federated Hermes ETF Trust Federated Hermes Short Duration Corporate ETF|P| |Y|100|N||FCSH|FCSH|N
 Y|FCT|First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest|N| |N|100|N||FCT|FCT|N
 Y|FCTR|First Trust Lunt U.S. Factor Rotation ETF|Z| |Y|100|N||FCTR|FCTR|N
-N|FCUS|Tidal ETF Trust II Pinnacle Focused Opportunities ETF|P| |Y|100|N||FCUS|FCUS|N
+Y|FCUS|Tidal ETF Trust II Pinnacle Focused Opportunities ETF|P| |Y|100|N||FCUS|FCUS|N
 Y|FCUV|Focus Universal Inc. - Common Stock|Q|G|N|100|N|N||FCUV|N
 Y|FCVT|First Trust SSI Strategic Convertible Securities ETF|Q|G|Y|100|N|N||FCVT|N
 Y|FCX|Freeport-McMoRan, Inc. Common Stock|N| |N|100|N||FCX|FCX|N
@@ -4294,7 +4294,7 @@ Y|GDV$H|The Gabelli Dividend & Income Trust 5.375% Series H Cumulative Preferred
 Y|GDV$K|The Gabelli Dividend & Income Trust 4.250% Series K Cumulative Preferred Shares|N| |N|100|N||GDVpK|GDV-K|N
 Y|GDVD|Northern Lights Fund Trust IV R3 Global Dividend Growth ETF|P| |Y|100|N||GDVD|GDVD|N
 Y|GDX|VanEck Gold Miners ETF |P| |Y|100|N||GDX|GDX|N
-N|GDXD|MicroSectors Gold Miners -3X Inverse Leveraged ETNs|P| |Y|100|N||GDXD|GDXD|N
+Y|GDXD|MicroSectors Gold Miners -3X Inverse Leveraged ETNs|P| |Y|100|N||GDXD|GDXD|N
 Y|GDXJ|VanEck Junior Gold Miners ETF|P| |Y|100|N||GDXJ|GDXJ|N
 Y|GDXU|MicroSectors Gold Miners 3X Leveraged ETN|P| |Y|100|N||GDXU|GDXU|N
 Y|GDYN|Grid Dynamics Holdings, Inc. - Class A Common Stock|Q|S|N|100|N|N||GDYN|N
@@ -4508,7 +4508,7 @@ Y|GNRC|Generac Holdlings Inc. Common Stock|N| |N|100|N||GNRC|GNRC|N
 Y|GNS|Genius Group Limited Ordinary Shares|A| |N|100|N||GNS|GNS|N
 Y|GNSS|Genasys Inc. - Common Stock|Q|S|N|100|N|N||GNSS|N
 Y|GNT|GAMCO Natural Resources, Gold & Income Trust|N| |N|100|N||GNT|GNT|N
-N|GNT$A|GAMCO Natural Resources, Gold & Income Tust  5.20% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)|N| |N|100|N||GNTpA|GNT-A|N
+Y|GNT$A|GAMCO Natural Resources, Gold & Income Tust  5.20% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)|N| |N|100|N||GNTpA|GNT-A|N
 Y|GNTA|Genenta Science S.p.A. - American Depositary Shares|Q|S|N|100|N|N||GNTA|N
 Y|GNTX|Gentex Corporation - Common Stock|Q|Q|N|100|N|N||GNTX|N
 Y|GNTY|Guaranty Bancshares, Inc. Common Stock|N| |N|100|N||GNTY|GNTY|N
@@ -5164,7 +5164,7 @@ Y|IBTK|iShares iBonds Dec 2030 Term Treasury ETF|Q|G|Y|100|N|N||IBTK|N
 Y|IBTL|iShares iBonds Dec 2031 Term Treasury ETF|Q|G|Y|100|N|N||IBTL|N
 Y|IBTM|iShares iBonds Dec 2032 Term Treasury ETF|Q|G|Y|100|N|N||IBTM|N
 Y|IBTX|Independent Bank Group, Inc - Common Stock|Q|Q|N|100|N|N||IBTX|N
-N|IBUY|Amplify ETF Trust Amplify Online Retail ETF|P| |Y|100|N||IBUY|IBUY|N
+Y|IBUY|Amplify ETF Trust Amplify Online Retail ETF|P| |Y|100|N||IBUY|IBUY|N
 Y|ICAD|icad inc. - Common Stock|Q|S|N|100|N|N||ICAD|N
 Y|ICAP|Series Portfolios Trust InfraCap Equity Income Fund ETF|P| |Y|100|N||ICAP|ICAP|N
 Y|ICCC|ImmuCell Corporation - Common Stock|Q|S|N|100|N|N||ICCC|N
@@ -5599,7 +5599,7 @@ Y|IVOO|Vanguard S&P Mid-Cap 400 ETF|P| |Y|100|N||IVOO|IVOO|N
 Y|IVOV|Vanguard S&P Mid-Cap 400 Value ETF|P| |Y|100|N||IVOV|IVOV|N
 Y|IVR|INVESCO MORTGAGE CAPITAL INC Common Stock|N| |N|100|N||IVR|IVR|N
 Y|IVR$B|Invesco Mortgage Capital Inc. Preferred Series B Cum Fxd to Fltg|N| |N|100|N||IVRpB|IVR-B|N
-N|IVR$C|INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock, Liquation Preference $25.00 per Share|N| |N|100|N||IVRpC|IVR-C|N
+Y|IVR$C|INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock, Liquation Preference $25.00 per Share|N| |N|100|N||IVRpC|IVR-C|N
 Y|IVRA|Invesco Real Assets ESG ETF|Z| |Y|100|N||IVRA|IVRA|N
 Y|IVRS|iShares Trust iShares Future Metaverse Tech and Communications ETF|P| |Y|100|N||IVRS|IVRS|N
 Y|IVT|InvenTrust Properties Corp. Common Stock|N| |N|100|N||IVT|IVT|N
@@ -6289,7 +6289,7 @@ Y|LOMA|Loma Negra Compania Industrial Argentina Sociedad Anonima ADS|N| |N|100|N
 Y|LONZ|PIMCO U.S. Treasury Index Fund PIMCO Senior Loan Active Exchange-Traded Fund|P| |Y|100|N||LONZ|LONZ|N
 Y|LOOP|Loop Industries, Inc. - Common Stock|Q|G|N|100|N|N||LOOP|N
 Y|LOPE|Grand Canyon Education, Inc. - Common Stock|Q|Q|N|100|N|N||LOPE|N
-N|LOPP|Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF|P| |Y|100|N||LOPP|LOPP|N
+Y|LOPP|Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF|P| |Y|100|N||LOPP|LOPP|N
 Y|LOUP|Innovator Deepwater Frontier Tech ETF|P| |Y|100|N||LOUP|LOUP|N
 Y|LOV|Spark Networks SE - ADS|Q|S|N|100|N|D||LOV|N
 Y|LOVE|The Lovesac Company - Common Stock|Q|G|N|100|N|N||LOVE|N
@@ -7181,7 +7181,7 @@ Y|NLSP|NLS Pharmaceutics Ltd. - Common Shares|Q|S|N|100|N|N||NLSP|N
 Y|NLSPW|NLS Pharmaceutics Ltd. - Warrant|Q|S|N|100|N|N||NLSPW|N
 Y|NLTX|Neoleukin Therapeutics, Inc. - Common Stock|Q|S|N|100|N|D||NLTX|N
 Y|NLY|Annaly Capital Management Inc. Common Stock|N| |N|100|N||NLY|NLY|N
-N|NLY$F|Annaly Capital Management Inc 6.95% Series F|N| |N|100|N||NLYpF|NLY-F|N
+Y|NLY$F|Annaly Capital Management Inc 6.95% Series F|N| |N|100|N||NLYpF|NLY-F|N
 Y|NLY$G|Annaly Capital Management Inc 6.50% Series G Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock|N| |N|100|N||NLYpG|NLY-G|N
 Y|NLY$I|Annaly Capital Management Inc 6.750% Series I Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock|N| |N|100|N||NLYpI|NLY-I|N
 Y|NM|Navios Maritime Holdings Inc. Common Stock|N| |N|100|N||NM|NM|N
@@ -7261,7 +7261,7 @@ Y|NRDS|NerdWallet, Inc. - Class A Common Stock|Q|G|N|100|N|N||NRDS|N
 Y|NRDY|Nerdy Inc. Class A Common Stock|N| |N|100|N||NRDY|NRDY|N
 Y|NRDY.W|Nerdy Inc. Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share|N| |N|100|N||NRDY.WS|NRDY+|N
 Y|NREF|NexPoint Real Estate Finance, Inc. Common Stock|N| |N|100|N||NREF|NREF|N
-N|NREF$A|NexPoint Real Estate Finance, Inc. 8.50% Series A Cumulative Redeemable Preferred Stock|N| |N|100|N||NREFpA|NREF-A|N
+Y|NREF$A|NexPoint Real Estate Finance, Inc. 8.50% Series A Cumulative Redeemable Preferred Stock|N| |N|100|N||NREFpA|NREF-A|N
 Y|NRG|NRG Energy, Inc. Common Stock|N| |N|100|N||NRG|NRG|N
 Y|NRGD|MicroSectors U.S. Big Oil Index -3X Inverse Leveraged ETN|P| |N|100|N||NRGD|NRGD|N
 Y|NRGU|MicroSectors U.S. Big Oil Index 3X Leveraged ETN|P| |N|100|N||NRGU|NRGU|N
@@ -7527,7 +7527,7 @@ Y|OFS|OFS Capital Corporation - Closed End Fund|Q|Q|N|100|N|N||OFS|N
 Y|OFSSH|OFS Capital Corporation - 4.95% Notes due 2028|Q|Q|N|100|N|N||OFSSH|N
 Y|OGCP|Empire State Realty OP, L.P. Series 60 Operating Partnership Units Representing Limited Partnership Interests|P| |N|100|N||OGCP|OGCP|N
 Y|OGE|OGE Energy Corp Common Stock|N| |N|100|N||OGE|OGE|N
-N|OGEN|Oragenics Inc. Common Stock|A| |N|100|N||OGEN|OGEN|N
+Y|OGEN|Oragenics Inc. Common Stock|A| |N|100|N||OGEN|OGEN|N
 Y|OGI|Organigram Holdings Inc. - Common Shares|Q|Q|N|100|N|D||OGI|N
 Y|OGIG|ALPS O'Shares Global Internet Giants ETF|Z| |Y|100|N||OGIG|OGIG|N
 Y|OGN|Organon & Co. Common Stock |N| |N|100|N||OGN|OGN|N
@@ -8088,7 +8088,7 @@ Y|PLYM|Plymouth Industrial REIT, Inc. Common Stock|N| |N|100|N||PLYM|PLYM|N
 Y|PLYM$A|Plymouth Industrial REIT, Inc. 7.50% Series A Cumulative Redeemable Preferred Stock|A| |N|100|N||PLYMpA|PLYM-A|N
 Y|PM|Philip Morris International Inc Common Stock|N| |N|100|N||PM|PM|N
 Y|PMAR|Innovator U.S. Equity Power Buffer ETF - March|Z| |Y|100|N||PMAR|PMAR|N
-N|PMAY|Innovator U.S. Equity Power Buffer ETF - May|Z| |Y|100|N||PMAY|PMAY|N
+Y|PMAY|Innovator U.S. Equity Power Buffer ETF - May|Z| |Y|100|N||PMAY|PMAY|N
 Y|PMCB|PharmaCyte  Biotech, Inc. - Common Stock|Q|S|N|100|N|N||PMCB|N
 Y|PMD|Psychemedics Corporation - Common Stock|Q|S|N|100|N|N||PMD|N
 Y|PMF|PIMCO Municipal Income Fund Common Stock|N| |N|100|N||PMF|PMF|N
@@ -8252,7 +8252,7 @@ Y|PSA$I|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.875% C
 Y|PSA$J|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.700% Cumulative Preferred Share of Beneficial Interest, Series J, par value $0.01 per share|N| |N|100|N||PSApJ|PSA-J|N
 Y|PSA$K|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.75% Cumulative Preferred Share of Beneficial Interest, Series K|N| |N|100|N||PSApK|PSA-K|N
 Y|PSA$L|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.625% Cumulative Preferred Share of Beneficial Interest, Series L, par value $0.01 per share|N| |N|100|N||PSApL|PSA-L|N
-N|PSA$M|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.125% Cumulative Preferred Share of Beneficial Interest, Series M|N| |N|100|N||PSApM|PSA-M|N
+Y|PSA$M|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.125% Cumulative Preferred Share of Beneficial Interest, Series M|N| |N|100|N||PSApM|PSA-M|N
 Y|PSA$N|Public Storage Depositary Shares Each Representing 1/1,000 of a 3.875% Cumulative Preferred Share of Beneficial Interest, Series N|N| |N|100|N||PSApN|PSA-N|N
 Y|PSA$O|Public Storage Depositary Shares Each Representing 1/1,000 of a 3.900% Cumulative Preferred Share of Beneficial Interest, Series O|N| |N|100|N||PSApO|PSA-O|N
 Y|PSA$P|Public Storage Depositary Shares Each Representing 1/1,000 of a 4.000% Cumulative Preferred Share of Bene cial Interest, Series P|N| |N|100|N||PSApP|PSA-P|N
@@ -8669,7 +8669,7 @@ Y|REVS|Columbia Research Enhanced Value ETF|P| |Y|100|N||REVS|REVS|N
 Y|REW|ProShares UltraShort Technology|P| |Y|100|N||REW|REW|N
 Y|REX|REX American Resources Corporation|N| |N|100|N||REX|REX|N
 Y|REXR|Rexford Industrial Realty, Inc. Common Stock|N| |N|100|N||REXR|REXR|N
-N|REXR$B|Rexford Industrial Realty, Inc. 5.875% Series B Cumulative Redeemable Preferred Stock|N| |N|100|N||REXRpB|REXR-B|N
+Y|REXR$B|Rexford Industrial Realty, Inc. 5.875% Series B Cumulative Redeemable Preferred Stock|N| |N|100|N||REXRpB|REXR-B|N
 Y|REXR$C|Rexford Industrial Realty, Inc. 5.625% Series C Cumulative Redeemable Preferred Stock, par value $0.01 per share|N| |N|100|N||REXRpC|REXR-C|N
 Y|REYN|Reynolds Consumer Products Inc. - Common Stock|Q|Q|N|100|N|N||REYN|N
 Y|REZ|iShares Residential and Multisector Real Estate ETF|P| |Y|100|N||REZ|REZ|N
@@ -9162,7 +9162,7 @@ Y|SEAS|SeaWorld Entertainment, Inc. Common Stock|N| |N|100|N||SEAS|SEAS|N
 Y|SEAT|Vivid Seats Inc. - Class A common stock|Q|Q|N|100|N|N||SEAT|N
 Y|SEATW|Vivid Seats Inc. - Warrant|Q|Q|N|100|N|N||SEATW|N
 Y|SEB|Seaboard Corporation Common Stock|A| |N|1|N||SEB|SEB|N
-N|SECD|Tidal ETF Trust II Senior Secured Credit Opportunities ETF|P| |Y|100|N||SECD|SECD|N
+Y|SECD|Tidal ETF Trust II Senior Secured Credit Opportunities ETF|P| |Y|100|N||SECD|SECD|N
 Y|SECO|Secoo Holding Limited - American Depositary Shares|Q|S|N|100|N|N||SECO|N
 Y|SECT|Northern Lights Fund Trust IV Main Sector Rotation ETF|Z| |Y|100|N||SECT|SECT|N
 Y|SEDA|SDCL EDGE Acquisition Corporation Class A Ordinary Shares|N| |N|100|N||SEDA|SEDA|N
@@ -9201,7 +9201,7 @@ Y|SETM|Sprott Energy Transition Materials ETF|Q|G|Y|100|N|N||SETM|N
 Y|SEV|Sono Group N.V. - Common Shares|Q|G|N|100|N|D||SEV|N
 Y|SEVN|Seven Hills Realty Trust  - Common Stock|Q|S|N|100|N|N||SEVN|N
 Y|SF|Stifel Financial Corporation Common Stock|N| |N|100|N||SF|SF|N
-N|SF$B|Stifel Financial Corporation Depositary Shares, Each Representing 1/1,000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock, Series B|N| |N|100|N||SFpB|SF-B|N
+Y|SF$B|Stifel Financial Corporation Depositary Shares, Each Representing 1/1,000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock, Series B|N| |N|100|N||SFpB|SF-B|N
 Y|SF$C|Stifel Financial Corporation Depositary Shares, Each Representing 1/1,000th Interest in a Share of 6.125% Non Cumulative Preferred Stock, Series C|N| |N|100|N||SFpC|SF-C|N
 Y|SF$D|Stifel Financial Corporation Depositary Shares, Each Representing 1/1,000th Interest in a Share of 4.50% Non-Cumulative Preferred Stock, Series D|N| |N|100|N||SFpD|SF-D|N
 Y|SFB|Stifel Financial Corporation 5.20% Senior Notes due 2047|N| |N|100|N||SFB|SFB|N
@@ -9287,7 +9287,7 @@ Y|SHPW.W|Shapeways Holdings, Inc. Redeemable Warrants, each whole warrant exerci
 Y|SHUA|SHUAA Partners Acquisition Corp I - Class A Ordinary Share|Q|G|N|100|N|N||SHUA|N
 Y|SHUAU|SHUAA Partners Acquisition Corp I - Unit|Q|G|N|100|N|N||SHUAU|N
 Y|SHUAW|SHUAA Partners Acquisition Corp I - Warrant|Q|G|N|100|N|N||SHUAW|N
-N|SHUS|Syntax Stratified U.S. Total Market Hedged ETF|P| |Y|100|N||SHUS|SHUS|N
+Y|SHUS|Syntax Stratified U.S. Total Market Hedged ETF|P| |Y|100|N||SHUS|SHUS|N
 Y|SHV|iShares Short Treasury Bond ETF|Q|G|Y|100|N|N||SHV|N
 Y|SHW|Sherwin-Williams Company (The) Common Stock|N| |N|100|N||SHW|SHW|N
 Y|SHY|iShares 1-3 Year Treasury Bond ETF|Q|G|Y|100|N|N||SHY|N
@@ -10215,7 +10215,7 @@ Y|TPHD|Timothy Plan High Dividend Stock ETF|P| |Y|100|N||TPHD|TPHD|N
 Y|TPHE|Timothy Plan High Dividend Stock Enhanced ETF|P| |Y|100|N||TPHE|TPHE|N
 Y|TPHS|Trinity Place Holdings Inc. Common Stock|A| |N|100|N||TPHS|TPHS|N
 Y|TPIC|TPI Composites, Inc. - Common Stock|Q|G|N|100|N|N||TPIC|N
-N|TPIF|Timothy Plan International ETF|P| |Y|100|N||TPIF|TPIF|N
+Y|TPIF|Timothy Plan International ETF|P| |Y|100|N||TPIF|TPIF|N
 Y|TPL|Texas Pacific Land Corporation Common Stock|N| |N|100|N||TPL|TPL|N
 Y|TPLC|Timothy Plan US Large/Mid Cap Core ETF|P| |Y|100|N||TPLC|TPLC|N
 Y|TPLE|Timothy Plan US Large/Mid Cap Core Enhanced ETF|P| |Y|100|N||TPLE|TPLE|N
@@ -10482,7 +10482,7 @@ Y|ULTA|Ulta Beauty, Inc. - Common Stock|Q|Q|N|100|N|N||ULTA|N
 Y|ULTR|IQ Ultra Short Duration ETF|P| |Y|100|N||ULTR|ULTR|N
 Y|ULVM|VictoryShares US Value Momentum ETF|Q|G|Y|100|N|N||ULVM|N
 Y|UMAR|Innovator U.S. Equity Ultra Buffer ETF - March|Z| |Y|100|N||UMAR|UMAR|N
-N|UMAY|Innovator U.S. Equity Ultra Buffer ETF - May|Z| |Y|100|N||UMAY|UMAY|N
+Y|UMAY|Innovator U.S. Equity Ultra Buffer ETF - May|Z| |Y|100|N||UMAY|UMAY|N
 Y|UMBF|UMB Financial Corporation - Common Stock|Q|Q|N|100|N|N||UMBF|N
 Y|UMC|United Microelectronics Corporation (NEW) Common Stock|N| |N|100|N||UMC|UMC|N
 Y|UMDD|UltraPro MidCap400|P| |Y|100|N||UMDD|UMDD|N
@@ -10633,7 +10633,7 @@ Y|UXIN|Uxin Limited - American Depositary Shares|Q|Q|N|100|N|N||UXIN|N
 Y|UYG|ProShares Ultra Financials|P| |Y|100|N||UYG|UYG|N
 Y|UYLD|Angel Oak Funds Trust Angel Oak UltraShort Income ETF|P| |Y|100|N||UYLD|UYLD|N
 Y|UYM|ProShares Ultra Materials|P| |Y|100|N||UYM|UYM|N
-N|UZD|United States Cellular Corporation 6.250% Senior Notes due 2069|N| |N|100|N||UZD|UZD|N
+Y|UZD|United States Cellular Corporation 6.250% Senior Notes due 2069|N| |N|100|N||UZD|UZD|N
 Y|UZE|United States Cellular Corporation 5.500% Senior Notes due 2070|N| |N|100|N||UZE|UZE|N
 Y|UZF|United States Cellular Corporation 5.500% Senior Notes due 2070|N| |N|100|N||UZF|UZF|N
 Y|V|Visa Inc.|N| |N|100|N||V|V|N
@@ -11480,7 +11480,7 @@ Y|ZVIA|Zevia PBC Class A Common Stock|N| |N|100|N||ZVIA|ZVIA|N
 Y|ZVRA|Zevra Therapeutics, Inc.  - Common Stock|Q|Q|N|100|N|N||ZVRA|N
 Y|ZVSA|ZyVersa Therapeutics, Inc. - Common Stock|Q|G|N|100|N|N||ZVSA|N
 Y|ZVV|NYSE ARCA test stock|P| |N|100|Y||ZVV|ZVV|N
-N|ZVZZC|NASDAQ TEST STOCK Nextshares Test Security|Q|G| |100|Y|N||ZVZZC|Y
+Y|ZVZZC|NASDAQ TEST STOCK Nextshares Test Security|Q|G| |100|Y|N||ZVZZC|Y
 Y|ZVZZT|NASDAQ TEST STOCK|Q|G| |100|Y|N||ZVZZT|N
 Y|ZWS|Zurn Elkay Water Solutions Corporation Common Stock|N| |N|100|N||ZWS|ZWS|N
 Y|ZWZZT|NASDAQ TEST STOCK|Q|S| |100|Y|N||ZWZZT|N

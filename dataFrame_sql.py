@@ -5,6 +5,8 @@ from sqlalchemy import create_engine
 import pymysql
 import pandas as pd
 
+pw = "MyNewPass"
+
 
 def create_server_connection(host_name, user_name, user_password):
     connection = None
@@ -98,17 +100,41 @@ def putDataFrame_toSQL(dataBaseName, tableName, dataFrame, user, password):
         dbConnection.close()
 
 
+def replace_existing_table(dataBaseName, tableName, dataFrame, user, password):
+    sqlEngine = create_engine(
+        "mysql+pymysql://%s:%s@localhost/%s" % (user, password, dataBaseName),
+        pool_recycle=3600,
+    )
+    dbConnection = sqlEngine.connect()
+    try:
+        frame = dataFrame.to_sql(tableName, dbConnection, if_exists="append")
+
+    except ValueError as vx:
+        print(vx)
+
+    except Exception as ex:
+        print(ex)
+
+    else:
+        print("Table %s created successfully." % tableName)
+
+    finally:
+        dbConnection.close()
+
+
 if __name__ == "__main__":
     # creates and connects to database"
-    pw = "put_your_root_password_here"
+    # pw = "your root pass" #put your root password here
     connection = create_server_connection("localhost", "root", pw)  # pw is the password
     create_database_query = "CREATE DATABASE test"
     create_database(connection, create_database_query)
 
     # creates data Frame
-    data = pd.read_csv("bxtraded.txt", sep="|", header=None, skiprows=1)
+    data = pd.read_csv(
+        "nasdaqtraded_230510141735.txt", sep="|", header=None, skiprows=1
+    )
     data.columns = [
-        "BX Traded",
+        "Nasdaq Traded",
         "Symbol",
         "Security Name",
         "Listing Exchange",
@@ -121,9 +147,26 @@ if __name__ == "__main__":
         "BX Symbol",
         "NextShares",
     ]
-
+    data2 = pd.read_csv(
+        "nasdaqtraded_230512105005.txt", sep="|", header=None, skiprows=1
+    )
+    data2.columns = [
+        "Nasdaq Traded",
+        "Symbol",
+        "Security Name",
+        "Listing Exchange",
+        "Market Category",
+        "ETF",
+        "Round Lot Size",
+        "Test Issue",
+        "Financial Status",
+        "CQS Symbol",
+        "BX Symbol",
+        "NextShares",
+    ]
     # puts data frame into 'test' database with table name 'ex'
     putDataFrame_toSQL("test", "ex", data, "root", pw)
+    # replace_existing_table("test", "ex", data2, "root", pw)
 
     # example query with new table
     connection = create_db_connection("localhost", "root", pw, "test")
