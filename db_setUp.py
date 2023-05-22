@@ -5,7 +5,6 @@ from sqlalchemy import create_engine
 import pymysql
 import pandas as pd
 
-pw = "MyNewPass"
 # source venv/bin/activate
 
 
@@ -117,38 +116,67 @@ def replace_existing_table(dataBaseName, tableName, dataFrame, user, password):
         print(ex)
 
     else:
-        print("Table %s created successfully." % tableName)
+        print("Table %s updated successfully." % tableName)
 
     finally:
         dbConnection.close()
 
 
 if __name__ == "__main__":
-    # creates and connects to database"
-    # pw = "your root pass" #put your root password here
-    connection = create_server_connection("localhost", "root", pw)  # pw is the password
-    create_database_query = "CREATE DATABASE test"
-    create_database(connection, create_database_query)
-
-    # creates data Frame
-    data = pd.read_csv("nasdaqtraded_230510141735.txt", sep="|")
-    data2 = pd.read_csv("nasdaqtraded_230512105005.txt", sep="|")
-    # puts data frame into 'test' database with table name 'ex'
-    putDataFrame_toSQL("test", "ex", data, "root", pw)
-    replace_existing_table("test", "ex", data2, "root", pw)
-
-    # example query with new table
+    pw = "yupt pass"
     connection = create_db_connection("localhost", "root", pw, "test")
-    q1 = """
-SELECT *
-FROM ex;
-"""
-    q2 = """SELECT COLUMN_NAME
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'ex'
-ORDER BY ORDINAL_POSITION"""
-    dropTable_Query = "DROP TABLE CME;"
-    results = read_query(connection, q2)
+    create_table_nasdaq = """
+CREATE TABLE nasdaq (
+    `index` BIGINT UNSIGNED PRIMARY KEY,
+    `Nasdaq Traded` VARCHAR(255) NULL,
+    `Symbol` VARCHAR(255),
+    `Security Name` VARCHAR(255),
+    `Listing Exchange` VARCHAR(255),
+    `Market Category` VARCHAR(255),
+    ETF VARCHAR(255),
+    `Round Lot Size` DOUBLE,
+    `Test Issue` VARCHAR(255),
+    `Financial Status` VARCHAR(255),
+    `CQS Symbol` VARCHAR(255),
+    `NASDAQ Symbol` VARCHAR(255),
+    `NextShares` VARCHAR(255)
+  );
+ """
+    create_table_PHLX = """
+CREATE TABLE PHLX (
+    `index` BIGINT UNSIGNED PRIMARY KEY,
+    `PHLX Traded` VARCHAR(255) NULL,
+    `Symbol` VARCHAR(255),
+    `Security Name` VARCHAR(255),
+    `Listing Exchange` VARCHAR(255),
+    `Market Category` VARCHAR(255),
+    ETF VARCHAR(255),
+    `Round Lot Size` DOUBLE,
+    `Test Issue` VARCHAR(255),
+    `Financial Status` VARCHAR(255),
+    `CQS Symbol` VARCHAR(255),
+    `PHLX Symbol` VARCHAR(255),
+    `NextShares` VARCHAR(255)
+  );
+ """
 
-    for result in results:
-        print(result)
+    create_table_BX = """
+CREATE TABLE BX (
+    `index` BIGINT UNSIGNED PRIMARY KEY,
+    `BX Traded` VARCHAR(255) NULL,
+    `Symbol` VARCHAR(255),
+    `Security Name` VARCHAR(255),
+    `Listing Exchange` VARCHAR(255),
+    `Market Category` VARCHAR(255),
+    ETF VARCHAR(255),
+    `Round Lot Size` DOUBLE,
+    `Test Issue` VARCHAR(255),
+    `Financial Status` VARCHAR(255),
+    `CQS Symbol` VARCHAR(255),
+    `BX Symbol` VARCHAR(255),
+    `NextShares` VARCHAR(255)
+  );
+ """
+    execute_query(connection, create_table_nasdaq)
+    execute_query(connection, create_table_PHLX)
+    execute_query(connection, create_table_BX)
