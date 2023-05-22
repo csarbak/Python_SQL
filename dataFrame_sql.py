@@ -5,7 +5,6 @@ from sqlalchemy import create_engine
 import pymysql
 import pandas as pd
 
-pw = "MyNewPass"
 # source venv/bin/activate
 
 
@@ -125,7 +124,7 @@ def replace_existing_table(dataBaseName, tableName, dataFrame, user, password):
 
 if __name__ == "__main__":
     # creates and connects to database"
-    # pw = "your root pass" #put your root password here
+    pw = "your root pass"  # put your root password here
     connection = create_server_connection("localhost", "root", pw)  # pw is the password
     create_database_query = "CREATE DATABASE test"
     create_database(connection, create_database_query)
