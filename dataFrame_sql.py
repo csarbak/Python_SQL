@@ -124,7 +124,7 @@ def replace_existing_table(dataBaseName, tableName, dataFrame, user, password):
 
 if __name__ == "__main__":
     # creates and connects to database"
-    pw = "your root pass"  # put your root password here
+    pw = "MyNewPass"  # put your root password here
     connection = create_server_connection("localhost", "root", pw)  # pw is the password
     create_database_query = "CREATE DATABASE test"
     create_database(connection, create_database_query)
@@ -132,6 +132,7 @@ if __name__ == "__main__":
     # creates data Frame
     data = pd.read_csv("nasdaqtraded_230510141735.txt", sep="|")
     data2 = pd.read_csv("nasdaqtraded_230512105005.txt", sep="|")
+    data3 = pd.read_csv("bxtraded_230510141735.txt", sep="|")
     # puts data frame into 'test' database with table name 'ex'
     putDataFrame_toSQL("test", "ex", data, "root", pw)
     replace_existing_table("test", "ex", data2, "root", pw)
@@ -140,14 +141,14 @@ if __name__ == "__main__":
     connection = create_db_connection("localhost", "root", pw, "test")
     q1 = """
 SELECT *
-FROM ex;
+FROM BX;
 """
     q2 = """SELECT COLUMN_NAME
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'ex'
 ORDER BY ORDINAL_POSITION"""
-    dropTable_Query = "DROP TABLE CME;"
-    results = read_query(connection, q2)
-
+    dropTable_Query = "DROP TABLE BX;"
+    replace_existing_table("test", "BX", data3, "root", pw)
+    results = read_query(connection, q1)
     for result in results:
         print(result)

@@ -4,8 +4,42 @@ import pandas as pd
 from sqlalchemy import create_engine
 import pymysql
 import pandas as pd
-
+import os
 # source venv/bin/activate
+
+# export OSF_DB_USER="root"
+# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ export OSF_DB_PWD="p"
+# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ export OSF_DB_PWD="pwd"
+# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ echo $OSF_DB_USER
+# root
+OSF_DB_PWD= os.environ.get('OSF_DB_PWD')
+OSF_DB_PWD='OSF_DB_PWD'
+
+
+def create_server_connection(host_name, user_name, user_password):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=host_name,
+            user=user_name,
+            passwd= user_password
+            auth_plugin="mysql_native_password",
+        )
+
+        print("MySQL Database connection successful")
+    except Error as err:
+        print(f"Error: '{err}'")
+
+    return connection
+
+
+def create_database(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        print("Database created successfully")
+    except Error as err:
+        print(f"Error: '{err}'")
 
 
 def create_db_connection(host_name, user_name, user_password, db_name):
@@ -32,11 +66,19 @@ def execute_query(connection, query):  # For changing dataBase
 
 
 if __name__ == "__main__":
-    pw = "yupt pass"
-    connection = create_db_connection("localhost", "root", pw, "test")
+    pw = "your password"
+
+    connection = create_server_connection("localhost", "root", pw)  # pw is the password
+    create_database_query = "CREATE DATABASE test"  # change database name 'test'
+    create_database(connection, create_database_query)
+
+    connection = create_db_connection(
+        "localhost", "root", pw, "test"
+    )  # change test to your dataBase name
+
     create_table_nasdaq = """
 CREATE TABLE nasdaq (
-    `index` BIGINT UNSIGNED PRIMARY KEY,
+    `index` BIGINT PRIMARY KEY,
     `Nasdaq Traded` VARCHAR(255) NULL,
     `Symbol` VARCHAR(255),
     `Security Name` VARCHAR(255),
@@ -53,7 +95,7 @@ CREATE TABLE nasdaq (
  """
     create_table_PHLX = """
 CREATE TABLE PHLX (
-    `index` BIGINT UNSIGNED PRIMARY KEY,
+    `index` BIGINT PRIMARY KEY,
     `PHLX Traded` VARCHAR(255) NULL,
     `Symbol` VARCHAR(255),
     `Security Name` VARCHAR(255),
@@ -71,8 +113,8 @@ CREATE TABLE PHLX (
 
     create_table_BX = """
 CREATE TABLE BX (
-    `index` BIGINT UNSIGNED PRIMARY KEY,
-    `BX Traded` VARCHAR(255) NULL,
+    `index` BIGINT PRIMARY KEY,
+    `BX Traded` VARCHAR(255),
     `Symbol` VARCHAR(255),
     `Security Name` VARCHAR(255),
     `Listing Exchange` VARCHAR(255),
@@ -86,6 +128,6 @@ CREATE TABLE BX (
     `NextShares` VARCHAR(255)
   );
  """
-    execute_query(connection, create_table_nasdaq)
-    execute_query(connection, create_table_PHLX)
-    execute_query(connection, create_table_BX)
+    # execute_query(connection, create_table_nasdaq)
+    # execute_query(connection, create_table_PHLX)
+    # execute_query(connection, create_table_BX)
