@@ -5,15 +5,8 @@ from sqlalchemy import create_engine
 import pymysql
 import pandas as pd
 import os
-# source venv/bin/activate
 
-# export OSF_DB_USER="root"
-# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ export OSF_DB_PWD="p"
-# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ export OSF_DB_PWD="pwd"
-# (venv) (base) Conradss-Air:Sql_Python conradscomputer$ echo $OSF_DB_USER
-# root
-OSF_DB_PWD= os.environ.get('OSF_DB_PWD')
-OSF_DB_PWD='OSF_DB_PWD'
+# source venv/bin/activate
 
 
 def create_server_connection(host_name, user_name, user_password):
@@ -22,7 +15,7 @@ def create_server_connection(host_name, user_name, user_password):
         connection = mysql.connector.connect(
             host=host_name,
             user=user_name,
-            passwd= user_password
+            passwd=user_password,
             auth_plugin="mysql_native_password",
         )
 
@@ -128,6 +121,6 @@ CREATE TABLE BX (
     `NextShares` VARCHAR(255)
   );
  """
-    # execute_query(connection, create_table_nasdaq)
-    # execute_query(connection, create_table_PHLX)
-    # execute_query(connection, create_table_BX)
+    execute_query(connection, create_table_nasdaq)
+    execute_query(connection, create_table_PHLX)
+    execute_query(connection, create_table_BX)
