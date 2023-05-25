@@ -7,6 +7,9 @@ import pandas as pd
 import argparse
 from sys import argv
 
+EXISTING_DATABASE_NAME = "test"
+MYSQL_USER = "root"
+MYSQL_PASSWORD = "yourpass"
 
 
 def replace_existing_table(dataBaseName, tableName, dataFrame, user, password):
@@ -71,6 +74,7 @@ if __name__ == "__main__":
 
     data = pd.read_csv(args.newInfo, sep="|")
     # puts data frame into 'test' database with table name 'ex'
-    pw = "yourPass"  # change to your root password
-    dbName = "test"  # change to your database name
-    replace_existing_table(dbName, args.tableName, data, "root", pw)
+    replace_existing_table(
+        EXISTING_DATABASE_NAME, args.tableName, data, MYSQL_USER, MYSQL_PASSWORD
+    )
+
