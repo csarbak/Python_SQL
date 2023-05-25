@@ -6,9 +6,14 @@ import pymysql
 import pandas as pd
 import os
 
+
+USER = "root"
+HOST = "localhost"
+PASSWORD = "yourPass"
+DATABASE_TO_BE_CREATED = "test"
+
+
 # source venv/bin/activate
-
-
 def create_server_connection(host_name, user_name, user_password):
     connection = None
     try:
@@ -61,13 +66,13 @@ def execute_query(connection, query):  # For changing dataBase
 if __name__ == "__main__":
     pw = "your password"
 
-    connection = create_server_connection("localhost", "root", pw)  # pw is the password
-    create_database_query = "CREATE DATABASE test"  # change database name 'test'
+    connection = create_server_connection(HOST, USER, PASSWORD)  # pw is the password
+    create_database_query = (
+        f"CREATE DATABASE {DATABASE_TO_BE_CREATED} "  # change database name 'test'
+    )
     create_database(connection, create_database_query)
 
-    connection = create_db_connection(
-        "localhost", "root", pw, "test"
-    )  # change test to your dataBase name
+    connection = create_db_connection(HOST, USER, PASSWORD, DATABASE_TO_BE_CREATED)
 
     create_table_nasdaq = """
 CREATE TABLE nasdaq (
